@@ -59,14 +59,17 @@ class Application {
     /// Help for the app.
     private let helpString = """
     makeicons - create icons for Xcode projects.
-    Usage:
-    makeicons <image> <project> [-i <idiom>]
+    This tool uses the provided image file to populate AppIcon.appiconset with images of required size.
+    
+      Usage:
+      makeicons <image> <project> [-i <idiom>]
         image:      Path to .png image file to use as the app icon.
         project:    Path to Xcode project; can be a project path or AppIcon.appiconset path.
         
-    Options:
-        -i <idiom>: Idiom to apply the icon file to. When provided, the image will be set for all images matching this idiom.
+      Options:
+        -i <idiom>: Idiom to apply the icon file to. When provided, the image will be set for all icons matching this idiom.
                     For example, "-i mac" will update icons for macOS only.
+
     """
     
     /// `AppIcon.appiconseet` folder name

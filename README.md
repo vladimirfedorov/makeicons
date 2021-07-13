@@ -1,6 +1,6 @@
 # MakeIcons
 
-A macOS CLI utility to populate Xcode projects `AppIcon.appiconset` with icon images.
+A macOS CLI utility to populate Xcode project `AppIcon.appiconset` with icon images.
 
 ### Usage:
 
